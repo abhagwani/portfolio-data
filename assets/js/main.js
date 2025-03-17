@@ -128,7 +128,6 @@
 
 			}
 		});
-
 	// Spotlights.
 		$('.spotlights > section')
 			.scrollex({

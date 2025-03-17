@@ -33,9 +33,9 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="sundance-project.html" class="menu-link">Sundance Website</a></li>
-						<li><a href="technical-writing.html" class="menu-link">Technical Writing</a></li>
-						<li><a href="build-automation.html" class="menu-link">Build Automation and Deployment</a></li>
+						<li><a href="sundance-project.html">Sundance Website</a></li>
+						<li><a href="technical-writing.html" >Technical Writing</a></li>
+						<li><a href="build-automation.html">Build Automation and Deployment</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -98,5 +98,21 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+				// Select all <a> tags inside <li> under <nav>
+const menuLinks = document.querySelectorAll('#header nav ul li a');
+
+// Loop over each <a> tag and add click event listener
+menuLinks.forEach(link => {
+  link.addEventListener('click', function (e) {
+    // Check if "active" class is already present
+    if (!this.classList.contains('active')) {
+      // Add "active" class to clicked <a>
+      this.classList.add('active');
+    }
+  });
+});
+
+			</script>
 	</body>
 </html>

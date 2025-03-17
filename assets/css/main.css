@@ -3007,8 +3007,9 @@ input, select, textarea {
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: cover;
+			background-size: contain;
 			border-radius: 0;
+			background-repeat: no-repeat;
 			display: block;
 			position: relative;
 			width: 25em;
@@ -3423,7 +3424,7 @@ input, select, textarea {
 							color: rgba(255, 255, 255, 0.55);
 						}
 
-						#header > nav > ul > li a.menu-link.active {
+						#header > nav > ul > li a.active {
 							color: #ffffff;
 						}
 
