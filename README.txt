@@ -25,7 +25,7 @@ Welcome to my Technical Writing Portfolio! I am a results-driven Technical Write
 - Generated online help, CHM files, and PDF manuals from a single source.
 
 ## How to Use This Portfolio
-- Browse through my **projects** and **documentation samples**.
+- Browse through my Projects and documentation samples.
 - Click on the provided links to explore live documentation examples.
 - Feel free to connect with me for any technical writing inquiries.
 
